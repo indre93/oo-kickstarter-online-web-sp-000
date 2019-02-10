@@ -9,7 +9,7 @@ class Backer
 
   def back_project(project)
     self.backed_projects << project
-    project.title = self
+    project.backers = self.backed_projects
   end
 
 end
